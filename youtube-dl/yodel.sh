@@ -69,5 +69,5 @@ echo "Starting yodel"
         echo "choosed directory: $OUTPUT_DIR"
     fi
 
-docker run --rm -v $OUTPUT_DIR:/tmp/download -it youtube-py-dl $VIDEO
+docker run --rm -v $OUTPUT_DIR:/tmp/download -it turneps403/youtube-dl $VIDEO
 echo "Stopping yodel"
